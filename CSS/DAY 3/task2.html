@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+        background-color: greenyellow;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .HOC{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav {
+      width: 120px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .element1 {
+      background-color: white;
+    }
+    a{
+        background-color: white;
+    }
+    .box {
+      width: 20px;
+      margin-left: auto;
+      background-color: black;
+    }
+    .element1 .box {
+      align-self: flex-end;
+    }
+    .links {
+        display: flex;
+        background-color: white;
+    }
+    .text{
+        color: purple;
+    }
+  </style>
+  <body>
+    <div class="HOC">
+      <div class="nav">
+        <div class="links">
+          <div class="element1"><a href="#">Home Page</a></div>
+          <div class="box"></div>
+        </div>
+        <div class="links">
+            <div class="element1"><a href="#">Musing</a></div>
+            <div class="box"></div>
+          </div>
+          <div class="links">
+            <div class="element1"><a href="#">My Town</a></div>
+            <div class="box"></div>
+          </div>
+          <div class="links">
+            <div class="element1"><a href="#">Links</a></div>
+            <div class="box"></div>
+          </div>
+
+       
+      </div>
+      <div class="text">
+        <h1>My first styled page</h1>
+        <p>Welcome to my first styled page!
+        <br>
+        <br>
+        It lacks images, but at least it has style. And it 
+        <br>
+        has links, even if they don't go anywhere...
+        <br>
+        <br>
+        There should be more here, but I don't know 
+        <br>
+        what yet.
+        <br>
+        <br>
+        <hr>
+        <br>
+        Made 5 April 2004
+        <br>
+        by myself.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
