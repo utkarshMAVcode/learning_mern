@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+margin: 0;
+}
+
+.nav1 {
+background-color: aqua;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+
+}
+
+.nav2 {
+background-color: rgb(172, 171, 171);
+height: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+}
+
+ul {
+list-style-type: none;
+display: flex;
+gap: 6rem;
+}
+
+.mainDiv {
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 100vh;
+}
+
+.bodySection1 {
+display: flex;
+justify-content: center;
+background-color: white;
+width: 75%;
+font-size: 15px;
+}
+
+.bodySection2 {
+display: flex;
+justify-content: center;
+background-color: gray;
+color: white;
+width: 25%;
+font-size: 15px;
+}
+
+</style>
+
+<body>
+    <nav class="nav1">Ethnus Layout</nav>
+    <nav class="nav2">
+        <div class="navDiv1">
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="navDiv2" style="margin-right: 40px;">
+            <ul>
+                <li>Signup</li>
+                <li>Login</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="mainDiv">
+        <section class="bodySection1">Write your content here</section>
+        <section class="bodySection2">This is</section>
+    </div>
+</body>
+
+</html>
